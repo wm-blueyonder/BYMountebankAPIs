@@ -1,0 +1,126 @@
+{
+  "predicates": [
+    {
+      "equals": {
+        "method": "GET",
+        "path": "/v1/mob/getReasonCode"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "is": {
+        "statusCode": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          
+            "data": {
+                "data": [
+                    {
+                        "INV_PRIOR_ID": "01",
+                        "INV_PRIOR_DESC": "Damaged"
+                    },
+                    {
+                        "INV_PRIOR_ID": "02",
+                        "INV_PRIOR_DESC": "Adjustment"
+                    }
+                ]
+            },
+            "status": "success"
+        
+        }
+      }
+    }
+  ]
+
+},
+{
+  "predicates": [
+    {
+      "equals": {
+        "method": "GET",
+        "path": "/v1/appSec/login"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "is": {
+        "statusCode": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          
+            "data": {
+                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MCwidXNyU2lnbm9uIjoiREVGQVVMVCAgICIsInNlc3Npb25JZCI6Ijc3OTVhZDM3LTMyYzUtNDdkNC1hNTdiLWY3YTgzMDA5MDkyZCIsImJ5cGFzc0ZsYWciOiJUIiwiaWF0IjoxNzQxODczNzY0LCJleHAiOjE3NDE5NjAxNjR9.ZmI5ORMXr-daAZiQMGeWz3EW4hzoXbvcw18L2ZgCyZo",
+                "muser": {
+                    "usrTechKey": 0,
+                    "usrSecure": "",
+                    "usrSignon": "DEFAULT   ",
+                    "basUserName": "DEFAULT",
+                    "lngCode": "USA",
+                    "lngUnifaceCode": "USA",
+                    "currCode": "USD",
+                    "bypassFlag": "T",
+                    "countryCode": null,
+                    "basUsrTitle": null,
+                    "basUsrDepartment": null,
+                    "basEMail": null,
+                    "basIsd": "+          ",
+                    "basArea": null,
+                    "basPhoneNumb": null,
+                    "basIsdFax": null,
+                    "basAreaFax": null,
+                    "basFaxNumber": null,
+                    "cntryLvlChild": 5,
+                    "chkSecure": null,
+                    "overrideFlag": "F"
+                }
+            },
+            "status": "success"
+        
+        }
+      }
+    }
+  ]
+},
+{
+  "predicates": [
+    {
+      "equals": {
+        "method": "GET",
+        "path": "/v1/mob/userOrganizationMobAssignments",
+"query": {
+          "usrTechKey": 0
+        }
+      }
+    }
+  ],
+  "responses": [
+    {
+      "is": {
+        "statusCode": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": 
+                  {
+    "data": {
+        "data": [
+            {
+                "ORG_LVL_CHILD": 316,
+                "ORG_LVL_NUMBER": 29,
+                "ORG_NAME_FULL": "Indianapolis",
+                "CURR_CODE": "USD"
+            }
+        ]
+    },
+    "status": "success"
+}
+      }
+    }
+  ]
+}

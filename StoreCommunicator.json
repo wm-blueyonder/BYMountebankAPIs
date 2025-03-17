@@ -1,0 +1,133 @@
+{
+  "predicates": [
+    {
+      "equals": {
+        "method": "GET",
+        "path": "/PendingPlanograms"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "is": {
+        "statusCode": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+         "data":[
+  {
+    "id": 1,
+    "name": "Breakfast Essentials Display",
+    "category": "Breakfast",
+    "score": 90,
+    "dueDate": "13/02/2025",
+    "readiness": 90,
+    "status": "Unassigned",
+    "associate": "Dave",
+    "image": "resources/images/imagelists/da.png"
+  },
+  {
+    "id": 2,
+    "name": "Beverage Aisle Arrangement",
+    "category": "Beverages",
+    "score": 85,
+    "dueDate": "20/03/2025",
+    "readiness": 75,
+    "status": "In-Progress",
+    "associate": "John",
+    "image": "resources/images/imagelists/da.png"
+  },
+  {
+    "id": 3,
+    "name": "Frozen Foods Setup",
+    "category": "Frozen",
+    "score": 92,
+    "dueDate": "25/02/2025",
+    "readiness": 95,
+    "status": "Review",
+    "associate": "Emily",
+    "image": "resources/images/imagelists/da.png"
+  },
+  {
+    "id": 4,
+    "name": "Organic Produce Section",
+    "category": "Produce",
+    "score": 88,
+    "dueDate": "10/04/2025",
+    "readiness": 80,
+    "status": "Re-Assigned",
+    "associate": "Mark",
+    "image": "resources/images/imagelists/da.png"
+  },
+  {
+    "id": 5,
+    "name": "Dairy Products Display",
+    "category": "Dairy",
+    "score": 95,
+    "dueDate": "05/04/2025",
+    "readiness": 98,
+    "status": "Review",
+    "associate": "Sarah",
+    "image": "resources/images/imagelists/da.png"
+  },
+  {
+    "id": 6,
+    "name": "Snacks Section Overhaul",
+    "category": "Snacks",
+    "score": 80,
+    "dueDate": "13/03/2025",
+    "readiness": 70,
+    "status": "In-Progress",
+    "associate": "Jake",
+    "image": "resources/images/imagelists/da.png"
+  },
+  {
+    "id": 7,
+    "name": "Personal Care Products",
+    "category": "Health & Beauty",
+    "score": 78,
+    "dueDate": "22/03/2025",
+    "readiness": 65,
+    "status": "Re-Assigned",
+    "associate": "Olivia",
+    "image": "resources/images/imagelists/da.png"
+  },
+  {
+    "id": 8,
+    "name": "Bakery Fresh Section",
+    "category": "Bakery",
+    "score": 90,
+    "dueDate": "30/03/2025",
+    "readiness": 85,
+    "status": "Unassigned",
+    "associate": "Daniel",
+    "image": "resources/images/imagelists/da.png"
+  },
+  {
+    "id": 9,
+    "name": "Meat & Poultry Organization",
+    "category": "Meat",
+    "score": 87,
+    "dueDate": "05/03/2025",
+    "readiness": 80,
+    "status": "In-Progress",
+    "associate": "Sophia",
+    "image": "resources/images/imagelists/da.png"
+  },
+  {
+    "id": 10,
+    "name": "Canned Goods Alignment",
+    "category": "Pantry",
+    "score": 89,
+    "dueDate": "12/05/2025",
+    "readiness": 82,
+    "status": "Review",
+    "associate": "Michael",
+    "image": "resources/images/imagelists/da.png"
+  }
+]        }
+      }
+    }
+  ]
+}
