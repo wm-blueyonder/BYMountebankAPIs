@@ -12,7 +12,7 @@ pipeline {
                 script {
                
                     // SSH into the remote host
-                    sshagent(['salesbot deployment key']) {
+                    sshagent(['prod-deployment-ssh-details']) {
                         sh "ssh -o StrictHostKeyChecking=no ubuntu@${env.remoteHost}"
 						//copy and overwrite the files
                         sh "scp -r /var/jenkins_home/workspace/att-mvno/mvno_mountebank/* ubuntu@${env.remoteHost}:${env.remotePath}"
