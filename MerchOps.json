@@ -37,29 +37,29 @@
 
 },
 {
-  "predicates": [
+  "predicates":[
     {
-      "equals": {
+      "matches": {
         "method": "POST",
         "path": "/v1/appSec/login",
-         "query": {
+        "body":{
     "usrSecure": "PASSWORD",
     "usrSignon": "DEFAULT"
 }
-
+ 
       }
     }
   ],
-  "responses": [
+  "responses":[
     {
-      "is": {
-        "statusCode": 200,
-        "headers": {
-          "Content-Type": "application/json"
-        },
-        "body": {
+      "is":{
+        "statusCode":200,
+        "headers":{
+          "Content-Type":"application/json"
           
-            "data": {
+        },
+        "body":{
+          "data": {
                 "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MCwidXNyU2lnbm9uIjoiREVGQVVMVCAgICIsInNlc3Npb25JZCI6Ijc3OTVhZDM3LTMyYzUtNDdkNC1hNTdiLWY3YTgzMDA5MDkyZCIsImJ5cGFzc0ZsYWciOiJUIiwiaWF0IjoxNzQxODczNzY0LCJleHAiOjE3NDE5NjAxNjR9.ZmI5ORMXr-daAZiQMGeWz3EW4hzoXbvcw18L2ZgCyZo",
                 "muser": {
                     "usrTechKey": 0,
@@ -88,10 +88,13 @@
             "status": "success"
         
         }
+        }
+
       }
-    }
+    
   ]
 },
+
 {
   "predicates": [
     {
