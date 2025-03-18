@@ -15,7 +15,7 @@ pipeline {
                     sshagent(['prod-deployment-ssh-details']) {
                         sh "ssh -o StrictHostKeyChecking=no ubuntu@${env.remoteHost}"
 						//copy and overwrite the files
-                        sh "scp -r /var/jenkins_home/workspace/att-mvno/mvno_mountebank/* ubuntu@${env.remoteHost}:${env.remotePath}"
+                        sh "scp -r /var/jenkins_home/workspace/BYmountebank/* ubuntu@${env.remoteHost}:${env.remotePath}"
 
                         sh "ssh -o StrictHostKeyChecking=no ubuntu@${env.remoteHost} 'docker restart ${env.containerName}' "
                     }
