@@ -40,8 +40,13 @@
   "predicates": [
     {
       "equals": {
-        "method": "GET",
-        "path": "/v1/appSec/login"
+        "method": "POST",
+        "path": "/v1/appSec/login",
+         "query": {
+    "usrSecure": "PASSWORD",
+    "usrSignon": "DEFAULT"
+}
+
       }
     }
   ],

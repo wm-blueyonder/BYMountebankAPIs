@@ -1,14 +1,3 @@
-{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-03-18T05:22:57.406Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-03-18T05:22:57.545Z"}
-{"level":"info","message":"[http:8006 root-static] Open for business...","timestamp":"2025-03-18T05:22:57.553Z"}
-{"level":"info","message":"[mb:2525] GET /images/book.jpg","timestamp":"2025-03-18T05:27:18.039Z"}
-{"level":"info","message":"[http:8006 root-static] ::1:50713 => GET /v1/mob/getReasonCode","timestamp":"2025-03-18T05:27:21.107Z"}
-{"level":"info","message":"[http:8006 root-static] ::1:50726 => GET /favicon.ico","timestamp":"2025-03-18T05:27:21.135Z"}
-{"level":"info","message":"[http:8006 root-static] no predicate match, using default response","timestamp":"2025-03-18T05:27:21.138Z"}
-{"level":"info","message":"[http:8006 root-static] ::1:50736 => GET /v1/mob/getReasonCode","timestamp":"2025-03-18T05:27:27.970Z"}
-{"level":"info","message":"[http:8006 root-static] ::1:50737 => GET /favicon.ico","timestamp":"2025-03-18T05:27:28.002Z"}
-{"level":"info","message":"[http:8006 root-static] no predicate match, using default response","timestamp":"2025-03-18T05:27:28.004Z"}
-{"level":"info","message":"[http:8006 root-static] ::1:50748 => GET /v1/mob/getReasonCode","timestamp":"2025-03-18T05:27:32.426Z"}
-{"level":"info","message":"[http:8006 root-static] ::1:50749 => GET /favicon.ico","timestamp":"2025-03-18T05:27:32.449Z"}
-{"level":"info","message":"[http:8006 root-static] no predicate match, using default response","timestamp":"2025-03-18T05:27:32.450Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2025-03-18T05:38:23.393Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-03-18T07:07:51.264Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-03-18T07:07:51.395Z"}
+{"level":"info","message":"[http:8006 root-static] Open for business...","timestamp":"2025-03-18T07:07:51.408Z"}
