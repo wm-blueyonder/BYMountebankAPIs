@@ -1,4 +1,16 @@
-{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-03-17T09:38:51.809Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-03-17T09:38:52.045Z"}
-{"level":"info","message":"[http:8006 root-static] Open for business...","timestamp":"2025-03-17T09:38:52.054Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2025-03-17T09:42:35.074Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-03-17T09:45:54.500Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-03-17T09:45:54.753Z"}
+{"level":"info","message":"[http:8006 root-static] Open for business...","timestamp":"2025-03-17T09:45:54.763Z"}
+{"level":"info","message":"[http:8006 root-static] ::1:61604 => GET /favicon.ico","timestamp":"2025-03-17T09:46:20.960Z"}
+{"level":"info","message":"[http:8006 root-static] no predicate match, using default response","timestamp":"2025-03-17T09:46:20.966Z"}
+{"level":"info","message":"[http:8006 root-static] ::1:61605 => GET /favicon.ico","timestamp":"2025-03-17T09:46:21.843Z"}
+{"level":"info","message":"[http:8006 root-static] no predicate match, using default response","timestamp":"2025-03-17T09:46:21.845Z"}
+{"level":"info","message":"[http:8006 root-static] ::1:61607 => GET /favicon.ico","timestamp":"2025-03-17T09:46:26.042Z"}
+{"level":"info","message":"[http:8006 root-static] no predicate match, using default response","timestamp":"2025-03-17T09:46:26.044Z"}
+{"level":"info","message":"[http:8006 root-static] ::1:61613 => GET /PendingPlanograms","timestamp":"2025-03-17T09:46:44.480Z"}
+{"level":"info","message":"[http:8006 root-static] ::1:61637 => GET /favicon.ico","timestamp":"2025-03-17T09:46:44.547Z"}
+{"level":"info","message":"[http:8006 root-static] no predicate match, using default response","timestamp":"2025-03-17T09:46:44.551Z"}
+{"level":"info","message":"[http:8006 root-static] ::1:61921 => GET /PendingPlanograms","timestamp":"2025-03-17T09:50:14.221Z"}
+{"level":"info","message":"[http:8006 root-static] ::1:61922 => GET /favicon.ico","timestamp":"2025-03-17T09:50:14.273Z"}
+{"level":"info","message":"[http:8006 root-static] no predicate match, using default response","timestamp":"2025-03-17T09:50:14.275Z"}
+{"level":"error","message":"[http:8006 root-static] ::1:61923 transmission error X=> {\"code\":\"ERR_HTTP_REQUEST_TIMEOUT\"}","timestamp":"2025-03-17T09:51:24.832Z"}
