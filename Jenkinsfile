@@ -2,7 +2,7 @@ pipeline {
     agent any
 	
 	     environment{
-                    remoteHost = ' 172.31.9.115'
+                    remoteHost = '172.31.9.115'
                     remotePath = '/data/bymountebank/BYMountebankAPIs'
 					containerName = 'BYmountebank'
 }
