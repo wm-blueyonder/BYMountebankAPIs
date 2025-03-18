@@ -123,4 +123,43 @@
       }
     }
   ]
+},
+
+{
+  "predicates":[
+    {
+      "matches": {
+        "method": "POST",
+        "path": "/v1/mob/postInventory",
+        "body": {
+          "usrSignon": "Default",
+          "transPrdNumber":"01",
+          "tranOrgNumber": "29",
+          "transRsnCode": "01",
+          "tranQty": "01"
+
+                  }
+      }
+    }
+  ],
+  "responses":[
+    {
+      "is":{
+        "statusCode":200,
+        "headers":{
+          "Content-Type":"application/json"
+          
+        },
+        "body":{
+           "data": {
+            "status": "success",
+            "data": "100769236"
+          },
+          "status": "success"
+        }
+        }
+
+      }
+    
+  ]
 }
