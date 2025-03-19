@@ -150,6 +150,15 @@
       }
     }
   ],
+  "responses": [
+    {
+      "is": {
+        "statusCode": 400,
+        "headers": { "Content-Type": "application/json" },
+        "body": "{\"error\": \"Missing or null fields in request\"}"
+      }
+    }
+  ],
   "responses":[
     {
       "is":{
