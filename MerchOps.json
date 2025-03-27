@@ -1,3 +1,5 @@
+
+
 {
   "predicates": [
     {
@@ -179,4 +181,37 @@
       }
     
   ]
+},
+{
+  "predicates": [
+    {
+      "equals": {
+        "method": "GET",
+        "path": "/v1/mob/getProductNumber",
+"query": {
+          "prdupc":6644
+        }
+      }
+    }
+  ],
+  "responses": [
+    {
+      "is": {
+        "statusCode": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": 
+                  {
+    "data": [
+        {
+            "PRD_LVL_NUMBER": "08TC9301"
+        }
+    ],
+    "status": "success"
 }
+         }
+    }
+  ]
+}
+
