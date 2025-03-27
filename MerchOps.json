@@ -46,7 +46,7 @@
         "path": "/v1/appSec/login",
         "body":{
     "usrSecure": "PASSWORD",
-    "usrSignon": "DEFAULT"
+    "usrSignon": "JOHN"
 }
  
       }
@@ -66,7 +66,7 @@
                 "muser": {
                     "usrTechKey": 0,
                     "usrSecure": "",
-                    "usrSignon": "DEFAULT   ",
+                    "usrSignon": "JOHN   ",
                     "basUserName": "DEFAULT",
                     "lngCode": "USA",
                     "lngUnifaceCode": "USA",
@@ -189,7 +189,7 @@
         "method": "GET",
         "path": "/v1/mob/getProductNumber",
 "query": {
-          "prdupc":6644
+          "prdupc":987654321
         }
       }
     }

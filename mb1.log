@@ -1,4 +1,4 @@
-{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-03-27T05:44:48.459Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-03-27T05:44:48.831Z"}
-{"level":"info","message":"[http:8006 root-static] Open for business...","timestamp":"2025-03-27T05:44:48.871Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2025-03-27T05:48:28.060Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-03-27T05:52:56.243Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-03-27T05:52:56.387Z"}
+{"level":"info","message":"[http:8006 root-static] Open for business...","timestamp":"2025-03-27T05:52:56.400Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2025-03-27T05:53:04.835Z"}
